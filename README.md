@@ -141,11 +141,9 @@ Dynamic verification formulas on `04_Assumptions_Audit` include:
 Equity_Research_Investment_Thesis_Eicher_Motors/
 │
 ├── README.md                                              # Master project overview & investment thesis
-├── requirements.txt                                       # Python dependencies
-├── .gitignore                                             # Git ignore rules
 │
 ├── Model/
-│   └── Equity_Research_Valuation_Model_Institutional.xlsx  # 5-tab dynamic financial model
+│   └── Equity_Research_Valuation_Model.xlsx                # 5-tab dynamic financial model
 │
 ├── Data/
 │   ├── Eicher_Historical_Financials.csv                    # Audited FY22–FY26 reported results
@@ -158,8 +156,8 @@ Equity_Research_Investment_Thesis_Eicher_Motors/
 │   └── equity_research_queries.sql                         # Analytical SQL queries for financials & KPIs
 │
 └── Docs/
-    ├── Research_Methodology.md                             # 7-step institutional research framework
-    └── Public_Sources.md                                   # Regulatory framing & sources
+    ├── Methodology.md                               # 7-step institutional research framework
+    └── Source.md                                    # Regulatory framing & sources
 ```
 
 ---
@@ -172,7 +170,7 @@ python Code/generate_model.py
 python Code/equity_research_analysis.py
 ```
 
-Open `Model/Equity_Research_Valuation_Model_Institutional.xlsx` to explore the full 5-tab valuation model, or query `Code/equity_research_queries.sql` against the CSV datasets in `Data/` using your preferred SQL engine.
+Open `Model/Equity_Research_Valuation_Model.xlsx` to explore the full 5-tab valuation model, or query `Code/equity_research_queries.sql` against the CSV datasets in `Data/` using your preferred SQL engine.
 
 ---
 
