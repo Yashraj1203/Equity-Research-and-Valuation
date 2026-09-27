@@ -1,17 +1,13 @@
-# Eicher Motors Limited (NSE: EICHERMOT) — Institutional Equity Research & Financial Valuation Model
+# Institutional Equity Research & Financial Valuation Model
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
-[![Excel](https://img.shields.io/badge/Model-openpyxl-217346.svg)](https://openpyxl.readthedocs.io/)
-[![Status](https://img.shields.io/badge/Status-Case%20Study-lightgrey.svg)]()
 
-> An end-to-end institutional-grade equity research, valuation, and financial modeling case study for **Eicher Motors Limited (NSE: EICHERMOT)** — covering Royal Enfield and VE Commercial Vehicles (VECV).
+> An end-to-end equity research, valuation, and financial modeling case study for **Eicher Motors Limited (NSE: EICHERMOT)** — covering Royal Enfield and VE Commercial Vehicles (VECV).
 
 ---
 
 ## 📌 Project Overview
 
-This project demonstrates an investment analyst's complete workflow: transforming public regulatory and financial disclosures into normalized financial statements, a programmatic valuation model, a 2-stage Discounted Cash Flow (DCF) engine built to J.P. Morgan research standards, trading comps benchmarking, and scenario sensitivity analysis.
+The project demonstrates an investment analyst's complete workflow: transforming public regulatory and financial disclosures into normalized financial statements, a programmatic valuation model, a 2-stage Discounted Cash Flow (DCF) engine built to J.P. Morgan research standards, trading comps benchmarking, and scenario sensitivity analysis.
 
 ```
 Company Research & Public Disclosures (Annual Reports, NSE, SIAM)
@@ -168,15 +164,6 @@ Equity_Research_Investment_Thesis_Eicher_Motors/
 
 ---
 
-## 🚀 Getting Started
-
-```bash
-# Clone the repository
-git clone https://github.com/Yashraj1203/Equity_Research_Investment_Thesis_Eicher_Motors.git
-cd Equity_Research_Investment_Thesis_Eicher_Motors
-
-# Install dependencies
-pip install -r requirements.txt
 
 # Rebuild the Excel model programmatically
 python Code/generate_model.py
@@ -215,7 +202,7 @@ Open `Model/Equity_Research_Valuation_Model_Institutional.xlsx` to explore the f
 
 ## ⚖️ Analytical Boundaries & Disclaimer
 
-This repository is an **equity research modeling case study**. It does **not** provide:
+This repository is an **equity research modeling case study only**. It does **not** provide:
 
 - Registered investment advice, buy/sell solicitations, or financial recommendations
 - Guarantees of future stock price performance or operating outcomes
