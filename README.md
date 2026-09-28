@@ -1,4 +1,4 @@
-# Institutional Equity Research & Financial Valuation Model
+# Equity Research & Financial Valuation Model
 
 
 > An end-to-end equity research, valuation, and financial modeling case study for **Eicher Motors Limited (NSE: EICHERMOT)** — covering Royal Enfield and VE Commercial Vehicles (VECV).
