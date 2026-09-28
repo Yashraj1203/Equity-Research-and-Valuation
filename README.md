@@ -143,28 +143,25 @@ Equity_Research_Investment_Thesis_Eicher_Motors/
 ├── README.md                                              # Master project overview & investment thesis
 │
 ├── Model/
-│   └── Equity_Research_Valuation_Model.xlsx                # 5-tab dynamic financial model
+│   └── Equity_Research_Valuation_Model.xlsx                
 │
 ├── Data/
 │   ├── Eicher_Historical_Financials.csv                    # Audited FY22–FY26 reported results
 │   ├── Eicher_Peer_Comparison.csv                          # Automotive OEM peer valuation data
 │   └── Eicher_Scenario_Valuation.csv                       # Operating scenario inputs
 │
-├── Code/
-│   ├── generate_model.py                                   # openpyxl script rebuilding the Excel model
-│   ├── equity_research_analysis.py                         # Statistical CAGR & scenario calculations
-│   └── equity_research_queries.sql                         # Analytical SQL queries for financials & KPIs
+├── Code/                                  
+│   ├── equity_research_analysis.py                         
+│   └── equity_research_queries.sql                         
 │
 └── Docs/
-    ├── Methodology.md                               # 7-step institutional research framework
-    └── Source.md                                    # Regulatory framing & sources
+    ├── Methodology.md                               
+    └── Source.md                                    
 ```
 
 ---
 
 
-# Rebuild the Excel model programmatically
-python Code/generate_model.py
 
 # Run the CAGR & scenario analysis script
 python Code/equity_research_analysis.py
